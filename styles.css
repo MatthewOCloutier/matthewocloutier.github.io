@@ -5,7 +5,7 @@ img {
     /* margin-top: 100px;
     margin-bottom: 10px; */
     border-radius: 50%;
-    size: 150px;
+    size: 50px;
     opacity: .7;
     height: auto;
     width: 200px;
@@ -22,7 +22,7 @@ img:hover {
     padding-left: 150px;
 }
     h1{
-        margin-left: 270px;
+        margin-left: 280px;
         color: white;
         font-family: 'Montserrat', sans-serif;
     }
