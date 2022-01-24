@@ -22,14 +22,14 @@ iframe {
     border-radius: 50%;
 }
 
-h1{
+    h1 {
         margin-left: 350px;
         color: white;
         font-family: 'Montserrat', sans-serif;
         opacity: 30%;
     }
-    h2{
-        margin-left:  445px;
+    h2 {
+        margin-left:  435px;
         color: white;
         font-family: 'Montserrat', sans-serif;
         opacity: 30%;
@@ -39,6 +39,10 @@ transition: width 2s;
 }
 navbar-brand active:hover {
         width: 300px;
+}
+.card-header {
+    font-size: x-large;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 .grid-container {
     display: grid;
@@ -88,6 +92,7 @@ navbar-brand active:hover {
   grid-area: main-left;
 }
 .main-right {
+    padding: none;
     grid-area: main-right;
 
 }

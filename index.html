@@ -9,125 +9,108 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;1,400;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" $enable-grid-classes: false $enable-cssgrid: true>
 
-    <title></title>
   </head>
   <body>
-    <div class="header">
-    <h1> Matthew O Cloutier </h1>   
-             <img src="biopic5.JPG" />  
-             <h2> Portfolio Page  </h2>
-            </div>
-            
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#">Butthole</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="https://matthewocloutier.github.io">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link"  href="https://github.com/matthewocloutier">Github</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Projects
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="https://github.com/MatthewOCloutier/PacMen-Exercise">Pacman Exercise</a></li>
-                        <li><a class="dropdown-item" href="https://github.com/MatthewOCloutier/Eye-Exercise/tree/main/eye-exercise">Eye Movement Exercise</a></li>
-                        <li><a class="dropdown-item" href="https://github.com/MatthewOCloutier/Bus-Tracker">Bus Tracker</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="https://github.com/MatthewOCloutier/myBlockie">My Blockie</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled">Disabled</a>
-                    </li>
-                  </ul>
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
+    <div class="grid" style="--bs-rows: 4; --bs-columns: 2;--bs-gap: 5rem;">
+   
+           <div class="title">
+             <div class="g-start-1" style="grid-row: 1">
+               <div class="header">
+                 <h1> Matthew O Cloutier </h1>   
+                 <img src="biopic5.JPG" />  
+                 <h2> Portfolio Page  </h2>
                 </div>
-              </div>
-              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-            </nav>
-            <!-- Optional JavaScript; choose one of the two! -->
-            
-            <!-- Option 1: Bootstrap Bundle with Popper -->
-            
-            <!-- Option 2: Separate Popper and Bootstrap JS -->
-            <!--
-              <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-            -->
-            <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-      <div class="card-header">Welcome
-      <iframe width="220" height="215"
-      src="https://www.youtube.com/embed/Zbhh9ZtNyJA">
-      </iframe>
-    </div>
-      <!-- <img src="myBlockie.png" class="card-img" alt=""/> -->
-      <div class="card-body">
-        <a href="bio.html"  style="color:#fff; text-decoration:none" ><h5 class="card-title">About Me</h5></a>
-        <p class="card-text"></p>
-        <!-- <a href="bio.html"></a> -->
-
-      </div>
-    </div>
-    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h5 class="card-title">Secondary card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h5 class="card-title">Success card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h5 class="card-title">Danger card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h5 class="card-title">Warning card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h5 class="card-title">Info card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h5 class="card-title">Light card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h5 class="card-title">Dark card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </body>
-</html>
+             </div> 
+           </div>
+           <div class="navigate"> 
+               <div class="g-start-1" style="grid-row: 2">
+               <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                   <div class="container-fluid">
+                     <!-- <a class="navbar-brand" href="#">Butthole</a> -->
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                         <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="https://matthewocloutier.github.io">Home</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link"  href="https://github.com/matthewocloutier">Github</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Projects
+                           </a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                             <li><a class="dropdown-item" href="https://github.com/MatthewOCloutier/PacMen-Exercise">Pacman Exercise</a></li>
+                             <li><a class="dropdown-item" href="https://github.com/MatthewOCloutier/Eye-Exercise/tree/main/eye-exercise">Eye Movement Exercise</a></li>
+                             <li><a class="dropdown-item" href="https://github.com/MatthewOCloutier/Bus-Tracker">Bus Tracker</a></li>
+                             <li><hr class="dropdown-divider"></li>
+                             <li><a class="dropdown-item" href="https://github.com/MatthewOCloutier/myBlockie">My Blockie</a></li>
+                           </ul>
+                         </li>
+                         <!-- <li class="nav-item">
+                           <a class="nav-link disabled">Disabled</a>
+                         </li> -->
+                       </ul>
+                       <form class="d-flex">
+                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Search</button>
+                       </form>
+                     </div>
+                   </div>
+                   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+                 </nav>
+               </div>
+               </div>
+           <div class="main-left">
+               <div class="p-3 border bg-light" style="grid-row: 3">
+               <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+         <div class="card-header">Welcome
+         <iframe width="220" height="215"
+         src="https://www.youtube.com/embed/Zbhh9ZtNyJA">
+         </iframe>
+       </div>
+         <!-- <img src="myBlockie.png" class="card-img" alt=""/> -->
+         <div class="card-body">
+           <a href="bio.html"  style="color:rgb(7, 7, 7); text-decoration:none" ><h5 class="card-title">Projects Page</h5></a>
+           <!-- <p class="card-text"></p> -->
+       </div>
+             </div>
+             </div>
+          </div>
+        <div class="main-right"> 
+           <div class="g-start-2" style="grid-row: 3">
+               
+   
+               <div class="card text-dark bg-warning mb-3" style="max-width: 18rem;"></div>
+               <div class="card-header">Matthew Cloutier</div>
+               <div class="card-body">
+                 <h5 class="card-title">Founder of Platinum Cutz llc.</h5>
+                 <p class="card-text">Most of my life has been spent on musical endeavors. After creating music for myself years, I started a recording company to make music for others. The most recent stint in my professional life has been spent producing, recording and mixing records. Towards the end of 2021 I began earning my certificate in coding from MITxPro. I look forward to integrating past and present experiences and knowledge to contribute to the world in new ways.</p>
+               </div>
+             
+             <div class="card text-dark bg-info.bg-gradient" style="max-width: 18rem;">
+                <div class="card-header">Connect</div>
+                <div class="card-body"><h5 class="card-title">Email:thesprint@gmail.com</h5><a href="https://github.com/matthewocloutier" style="text-decoration: none; color:black">Github.com/matthewocloutier</a>
+                
+                 <a class="card-text" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BLzqclEhwQY%2BYZ0OHsIouaw%3D%3D" style="color: black;text-decoration: none;">LINKEDIN</a> </div>
+                </div>
+               </div>
+           </div>
+   
+   
+           <div class="footer">
+             <div class="g-start-1" style="grid-row: 4">
+             
+               </div>
+           </div>
+        </div>
+       
+              
+       
+     </body>
+     </html>

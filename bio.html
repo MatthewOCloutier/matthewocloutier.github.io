@@ -13,7 +13,7 @@
     
   </head>
   <body>
- <div class="grid" style="--bs-rows: 4; --bs-columns: 2;">
+ <div class="grid" style="--bs-rows: 4; --bs-columns: 2;--bs-gap: 5rem;">
 
         <div class="title">
           <div class="g-start-1" style="grid-row: 1">
@@ -52,9 +52,9 @@
                           <li><a class="dropdown-item" href="https://github.com/MatthewOCloutier/myBlockie">My Blockie</a></li>
                         </ul>
                       </li>
-                      <li class="nav-item">
+                      <!-- <li class="nav-item">
                         <a class="nav-link disabled">Disabled</a>
-                      </li>
+                      </li> -->
                     </ul>
                     <form class="d-flex">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -67,16 +67,18 @@
             </div>
             </div>
         <div class="main-left">
-            <div class="g-start-1" style="grid-row: 3">
-            <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
-      <div class="card-header">Welcome
-      <iframe width="220" height="215"
+            <div class="p-3 border bg-light" style="grid-row: 3">
+            <div class="card text-light p-3 border bg-secondary" style="max-width: 18rem;">
+      <div class="card-header">Projects
+      <!-- <iframe width="220" height="215"
       src="https://www.youtube.com/embed/Zbhh9ZtNyJA">
-      </iframe>
+      </iframe> -->
     </div>
       <!-- <img src="myBlockie.png" class="card-img" alt=""/> -->
-      <div class="card-body">
-        <a href="bio.html"  style="color:#fff; text-decoration:none" ><h5 class="card-title">Click for Bio/Links</h5></a>
+      <div class="card-body">Click the Projects tab above to link to the Github repository for each exercise, or
+
+
+        <a href="index.html"  style="color:#fff; text-decoration:none" ><h5 class="card-title">Click for Bio/Links</h5></a>
         <p class="card-text"></p>
     </div>
           </div>
@@ -86,31 +88,76 @@
         <div class="main-right"> 
             <div class="g-start-2" style="grid-row: 3">
 
-            <div class="card text-dark bg-warning mb-3" style="max-width: 18rem;"></div>
-            <div class="card-header">Header</div>
+            <!-- <div class="card text-light bg-warning mb-3" style="max-width: 18rem;">
+            <div class="card-header">Pacman Exercise</div>
             <div class="card-body">
-              <h5 class="card-title">Warning card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title"></h5>
+              <p class="card-text">This program manipulates a Pacman animation to move back and forth to each side of the screen by clicking on the image.</p>
+            </div>
             </div>
           
-          <div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
-             <div class="card-header">Header</div>
+          <div class="card text-light bg-info mb-3" style="max-width: 18rem;">
+             <div class="card-header">Eye-Movement Exercise</div>
              <div class="card-body">
-              <h5 class="card-title">Info card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p></div>
+              <h5 class="card-title"></h5>
+              <p class="card-text">This program will make a pair of eyes follow your mouse arrow as you drag across the screen</p></div>
              </div>
+
+             <div class="card text-light bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Bus Tracker Exercise</div>
+                <div class="card-body">
+                 <h5 class="card-title"></h5>
+                 <p class="card-text">This program allows you to see a map marker move along each of the bus stops in the Bywater neighborhood of New Orleans, La.</p></div>
+                </div>
             </div>
         </div>
 
 
-        <div class="footer">"footer"
+        <div class="footer">
             <div class="g-start-1" style="grid-row: 4">
             
             </div>
         </div>
      </div>
-    
-           
+     -->
+     <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Pacman-Exercise
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong><a href="https://github.com/MatthewOCloutier/PacMen-Exercise" style="color:black; text-decoration:none">This program</a></strong> manipulates a Pacman animation to move back and forth to each side of the screen by clicking on the image.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Eye-Movement Exercise
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong><a href="https://github.com/MatthewOCloutier/Eye-Exercise/tree/main/eye-exercise" style="color: black; text-decoration: none;"> This program</a></strong>  will make a pair of eyes follow your mouse arrow as you drag across the screen
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Bus Tracker Exercise
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong><a href="https://github.com/MatthewOCloutier/Bus-Tracker" style="color: black; text-decoration: none;">This program</a></strong>  allows you to see a map marker move along each of the bus stops in the Bywater neighborhood of New Orleans, La.
+            </div>
+          </div>
+        </div>
+      </div>     
     
   </body>
   </html>
