@@ -1,9 +1,13 @@
+
+/* .grid div:nth-child(even){
+    background-color: red;
+}
+.grid div:nth-child(odd){
+    background-color: green;
+} */
 img {
-    /* padding: 50px, 50px, 50px, 50px; */
-    margin-left: 375px;
+    margin-left: 475px;
     margin-right: 30px;
-    /* margin-top: 100px;
-    margin-bottom: 10px; */
     border-radius: 50%;
     size: 50px;
     opacity: .7;
@@ -17,38 +21,78 @@ img:hover {
 iframe {
     border-radius: 50%;
 }
-.header{
-    background-color:rgba(0, 3, 51, 0.74);
-    background-image: linear-gradient(to bottom right, #424746,#c1cece);
-   
-    size: auto;
-    padding-left: 150px;
-}
-    h1{
-        margin-left: 250px;
+
+h1{
+        margin-left: 350px;
         color: white;
         font-family: 'Montserrat', sans-serif;
         opacity: 30%;
     }
     h2{
-        margin-left:  325px;
+        margin-left:  445px;
         color: white;
         font-family: 'Montserrat', sans-serif;
         opacity: 30%;
     }
-    navbar-brand {
-    transition: width 2s;
+navbar-brand {
+transition: width 2s;
 }
-    navbar-brand active:hover {
+navbar-brand active:hover {
         width: 300px;
-
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "navbar navbar"
+    "cards-left cards-right"
+    "floor floor";
+}
+ .header{
+    grid-area: header;
+    background-color:rgba(0, 3, 51, 0.74);
+    background-image: linear-gradient(to bottom right, #424746,#c1cece);
+    size: absolute;
+    padding-left: 150px;
+}
+.navbar {
+    grid-area: navbar;
+}
+.cards-left {
+    grid-area: cards-left;
+}
+.cards-right {
+    grid-area: cards-right;
+}
+.floor {
+    grid-area: floor;
 }
 
-/* h5 {
-   color: #FFF;
-   text-decoration: none;
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "title title"
+    "navigate navigate"
+    "main-left main-right"
+    "footer footer";
 }
-.card-title {
+.title {
+  grid-area: title;
 }
-    /* font-family: 'Pragati Narrow', sans-serif; */
+.navigate {
+  grid-area: navigate;
+}
+.main-left {
+  grid-area: main-left;
+}
+.main-right {
+    grid-area: main-right;
+
+}
+.footer {
+    grid-area: footer;
+}
+   
 
